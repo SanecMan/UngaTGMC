@@ -58,31 +58,7 @@
 	name = "white webbing vest"
 	desc = "A clean white Nylon vest with large pockets specially designed for medical supplies"
 	icon_state = "vest_white"
-	storage = /obj/item/storage/internal/white_vest
-
-/obj/item/storage/internal/white_vest
-	max_w_class = WEIGHT_CLASS_BULKY
-	storage_slots = 6 //one more than the brown webbing but you lose out on being able to hold non-medic stuff
-	max_storage_space = 24
-	can_hold = list(
-		/obj/item/healthanalyzer,
-		/obj/item/stack/medical,
-		/obj/item/reagent_containers/hypospray,
-		/obj/item/reagent_containers/hypospray/advanced,
-		/obj/item/reagent_containers/hypospray/autoinjector,
-		/obj/item/reagent_containers/glass/bottle,
-		/obj/item/reagent_containers/syringe,
-		/obj/item/reagent_containers/pill,
-		/obj/item/storage/pill_bottle,
-		/obj/item/clothing/glasses/hud/health,
-		/obj/item/clothing/gloves/latex,
-		/obj/item/tweezers,
-		/obj/item/tweezers_advanced,
-		/obj/item/bodybag,
-		/obj/item/roller,
-		/obj/item/whistle,
-		/obj/item/tool/surgery/solderingtool,
-	)
+	storage = /obj/item/storage/internal/vest
 
 /obj/item/armor_module/storage/uniform/surgery_webbing
 	name = "surgical webbing"
